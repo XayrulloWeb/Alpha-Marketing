@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Play", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.transparent {
+    background: url('./assets/backgrounds/фон5.png') no-repeat center center / cover;
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.navbar {
+    text-transform: uppercase;
+}
+
+.navbar_logo a {
+    display: block;
+    width: 274px;
+}
+
+.navbar_logo {
+    min-width: 400px;
+}
+
+.navbar_logo img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar_start {
+    justify-content: space-between;
+    align-items: center;
+    height: 79px;
+    width: 100%;
+    padding: 0 20px;
+    background: rgba(29, 1, 65, 0.5);
+    display: flex;
+}
+
+.navbar_links ul li a {
+    font-family: Play;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 0px 20px #D795FF, 0px 0px 4px #D795FF;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.navbar_links ul {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar_phone {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar_right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar_phone p {
+    font-family: Play;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.14px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.navbar_phone i {
+    width: 18px;
+    height: 18px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.navbar_btn button {
+    font-family: Play;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.14px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgba(233, 222, 255, 1);
+    background: rgba(30, 0, 68, 1);
+    border: 1px solid;
+    border-image-source: linear-gradient(0deg, #8FDDFF, #8FDDFF),
+        linear-gradient(93deg, #383FEC 49.3%, #23FFFF 87.76%);
+    box-shadow: 0px 0px 3.15px 0px rgba(162, 45, 247, 0.1);
+    box-shadow: 0px 0px 6.52px 0px rgba(162, 45, 247, 0.1);
+    box-shadow: 0px 0px 13px 0px rgba(162, 45, 247, 0.1);
+    box-shadow: 0px 0px 25.48px 0px rgba(162, 45, 247, 0.1);
+    box-shadow: 0px 0px 46.85px 0px rgba(162, 45, 247, 0.1);
+    box-shadow: 0px 0px 19px 9px rgba(162, 45, 247, 0.1);
+    padding: 15px 20px 15px 20px;
+    gap: 10px;
+    border-radius: 10px;
+
+}
+
+.navbar_btn svg {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.crm {
+    background: url('/assets/backgrounds/Line\ 9.png') no-repeat center center / cover;
+}
+
+.crm_links a {
+    font-family: Play;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+    color: rgba(233, 222, 255, 1);
+
+}
+
+.crm_links {
+    display: flex;
+    gap: 10px;
+    padding: 20px 0;
+
+
+}
+
+.crm_links p {
+    font-family: Play;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+    color: rgba(233, 222, 255, 1);
+}
+
+.crm_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.crm_btn button {
+    font-family: Play;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27.77px;
+    text-align: left;
+    padding: 20px 40px 20px 40px;
+    gap: 10px;
+    border-radius: 20px;
+    border: 2px solid;
+    border-image-source: linear-gradient(240.52deg, #59F8D2 7%, rgba(116, 223, 221, 0.43) 28.48%, rgba(161, 180, 239, 0.54) 64.29%, rgba(202, 142, 255, 0.55) 96.31%);
+    text-transform: uppercase;
+    background: rgba(177, 149, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 100px;
+}
+
+.crm_btn {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.crm_content h1 {
+    font-family: Play;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 0px 20px #D795FF, 0px 0px 4px #D795FF;
+}
+
+.mobile-hidden {
+    display: none;
+}
+
+.crm_content-img {
+    width: 704.88px;
+    height: 581px;
+}
+
+.crm_content-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.transparent_two {
+    background: url('./assets/backgrounds/фон5.png') no-repeat center center / cover;
+}
+
+.section_start {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section_box {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_box p {
+    font-family: Play;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.sectioN-box-img {
+    width: 200px;
+    height: 200px;
+}
+
+.sectioN-box-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.section h3 {
+    font-family: Play;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 50px;
+
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 20px;
+
+
+    cursor: pointer;
+}
+
+.burger {
+    display: none;
+}
+
+.menu-icon div {
+    width: 25px;
+    height: 3px;
+    background: linear-gradient(266.77deg, #FFFFFF -11.99%, #D795FF 42.41%, #7BC2FE 91.84%);
+
+}
+
+.menu_block {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media (max-width: 960px) {
+    .burger {
+        display: block;
+    }
+
+    .menu_block {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    .container {
+        padding: 0 30px;
+    }
+
+    .navbar_start {
+        padding: 10px 30px;
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .navbar_logo a {
+        width: 150px;
+    }
+
+    .navbar_links {
+        display: none;
+    }
+
+    .navbar_links i {
+        display: none;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    .navbar_btn {
+        display: none;
+    }
+
+    .navbar_links.show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(29, 1, 65, 0.9);
+        position: absolute;
+        top: 79px;
+        width: 100%;
+        left: 0;
+        padding: 10px 0;
+    }
+
+    .navbar_links ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section_start {
+        flex-wrap: wrap;
+    }
+
+    .crm_content-img {
+        width: 299.66px;
+        height: 247px;
+
+
+    }
+
+    .section_box {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:1400px) {
+    .sectioN-box-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .section_box p {
+        font-family: Play;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: center;
+
+    }
+
+    .navbar_logo {
+        min-width: auto;
+    }
+
+    .navbar_logo img {
+        width: auto;
+    }
+
+    .navbar_links ul li a,
+    .navbar_phone p,
+    .navbar_btn button {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:640px) {
+    .crm_links a {
+        font-family: Play;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        text-align: center;
+
+    }
+
+    .crm_btn button {
+        font-family: Play;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.2px;
+        padding: 10px 40px 10px 40px;
+        gap: 10px;
+        border-radius: 20px;
+
+    }
+    .navbar_phone i{
+        display: none   ;
+    }
+    .navbar_phone p{
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13.31px;
+    text-align: left;
+
+    }
+    .crm_btn {
+        margin-top: 20px;
+    }
+
+    .navbar_logo a{
+        width: 101.56px;
+        height: 16.03px;
+    }
+    .navbar_logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .section h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+    }
+}
